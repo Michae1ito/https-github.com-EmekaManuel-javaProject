@@ -41,7 +41,7 @@ public class assignment1 {
 
             // Check if the user has used all the attempts
             if (i == Max_Attempts) {
-                System.out.println("Sorry, " + username + ", you didn't guess the number in " + Max_Attempts
+                System.out.println("Sorry, " + username + ", you couldn't guess the number in " + Max_Attempts
                         + " attempts. The correct number was " + Correct_Guess);
             }
         }
